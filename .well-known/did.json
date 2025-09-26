@@ -3,24 +3,24 @@
     "https://www.w3.org/ns/did/v1",
     "https://w3id.org/security/suites/jws-2020/v1"
   ],
-  "id": "did:web:raw.githubusercontent.com:Last-butnotleast:credential-helper:main",
+  "id": "raw.githubusercontent.com:Last-butnotleast:credential-helper:refs:heads:main",
   "verificationMethod": [
     {
       "@context": "https://w3c-ccg.github.io/lds-jws2020/contexts/v1/",
-      "id": "did:web:raw.githubusercontent.com:Last-butnotleast:credential-helper:main#X509-JWK2020",
+      "id": "raw.githubusercontent.com:Last-butnotleast:credential-helper:refs:heads:main#X509-JWK2020",
       "type": "JsonWebKey2020",
-      "controller": "did:web:raw.githubusercontent.com:Last-butnotleast:credential-helper:main",
+      "controller": "raw.githubusercontent.com:Last-butnotleast:credential-helper:refs:heads:main",
       "publicKeyJwk": {
         "kty": "EC",
         "x": "Xu40p8IZJR3BHTiIZOQ4IwFcNCEH6EWx4BOEZVkPMaw",
         "y": "dFnLF_2Ron-HlhpRmi1zSZvF5XFD3OvL9BVNZ-d3Sz4",
         "crv": "P-256",
         "alg": "ES256",
-        "x5u": "https://raw.githubusercontent.com/Last-butnotleast/credential-helper/main/.well-known/x509Certificate.pem"
+        "x5u": "https://raw.githubusercontent.com/Last-butnotleast/credential-helper/refs/heads/main/.well-known/did.json"
       }
     }
   ],
   "assertionMethod": [
-    "did:web:raw.githubusercontent.com:Last-butnotleast:credential-helper:main#X509-JWK2020"
+    "raw.githubusercontent.com:Last-butnotleast:credential-helper:refs:heads:main#X509-JWK2020"
   ]
 }
